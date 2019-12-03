@@ -10,9 +10,8 @@
 
 <h2>2. Dancing with Github</h2>
 
-> <img src="./markdown/img/github_dancing_with.png"/></br>
-> Slack은 개발자든 아니든 많은 사람들이 이용한다. 그리고 Git은 세계에서 개발자가 가장 많이 사용하는 툴이다. 그런데 이런 Slack이 Github을 App으로 지원한다니, 정말 말도 안되게 칭찬한다.</br>
-> <img src="./markdown/img/github_clap.gif" width="550"/></br>
+> Slack은 개발자든 아니든 많은 사람들이 이용한다. 그리고 Git은 세계에서 개발자가 가장 많이 사용하는 툴이다. 그런데 이런 Slack이 Github을 App으로 지원한다니, 정말 말도 안되게 칭찬한다.</br></br>
+> <img src="./markdown/img/github_clap.gif" width="550"/></br></br>
 > 그렇다면 Slack에서 어떤 기능들을 지원하는지 한번 살펴보자.
 
 
