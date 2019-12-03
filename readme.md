@@ -60,10 +60,12 @@
 	><img src="./markdown/img/slack_card_detail.png"/></br>
 
 2. Slack에서 Board나 Card link 하기
-	>이미 위에 1번에서 명령어를 보여줬지만, 다시한번 언급하면 /trello link 라는 명령어를 통해 특정 보드나 카드를 slack에서 연동할 수 있다. 이렇게 연동되면 trello에서 생기는 변동사항이나, team member를 보거나, 원하는 문자를 해당 board에 있나 검색할 수 있게된다. 물론 연동이 되어있는 부분만 가능하다.</br>
+	>이미 위에 1번에서 명령어를 보여줬지만, 다시한번 언급하면 /trello link 라는 명령어를 통해 특정 보드나 카드를 slack에서 연동할 수 있다. 이렇게 연동되면 trello에서 생기는 변동사항이나, teammate가 보거나, 원하는 문자를 해당 board에 있나 검색할 수 있게된다. 물론 연동이 되어있는 부분만 가능하다.</br>
 	><img src="./markdown/img/slack_link.png"/></br>
 	>위 사진과 같이 연동을해서 slack을 사용하는 유저가 Default List를 설정할 수 있고, 사용자마다 누군가가 불러온 Slack에 대하여 Join, Subscribe, Star를 누를 수 있다. 그렇게 된다면, 모든 사람이 각자 주소를 불러올 필요없이 편하게 Link 할 수 있게 된다.
 
 3. 그 외 기능
-	> 많은 기능들을 제공하는데, team member가 없어서 내가 못해서, 간략하게 글로 기능들을 소개하겠다.
+	> 많은 기능들을 제공하는데, teammate가 없어서 내가 못해서, 간략하게 글로 기능들을 소개하겠다.
 	></br><img src="./markdown/img/slack_func_etc.png"/></br>
+	>위에서 부터 설명하면 소속된 `팀원들 중 특정 인물을 특정 카드에 소속되게 하는 기능`이 바로 assign 기능이다. 그리고 `특정 카드에 comment 명령어를 이용해 댓글`을 달 수 있고, 마지막으로 `set-due를 이용해 특정 카드의 데드라인`을 정할 수 있다. 간단하게 Slack 안에서 말이다!
+	>> 내가 보기엔 slack은 약간 개발자 친화적인 커뮤니티 툴인 것 같다.
