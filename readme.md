@@ -10,9 +10,9 @@
 
 <h2>2. Dancing with Github</h2>
 
-> <img src="./markdown/img/github_dancing_with.png" width="300"/>
+> <img src="./markdown/img/github_dancing_with.png" width="300"/></br>
 > Slack은 개발자든 아니든 많은 사람들이 이용한다. 그리고 Git은 세계에서 개발자가 가장 많이 사용하는 툴이다. 그런데 이런 Slack이 Github을 App으로 지원한다니, 정말 말도 안되게 칭찬한다.
-> <img src="./markdown/img/github_clap.gif" width="300"/>
+> <img src="./markdown/img/github_clap.gif" width="300"/></br>
 > 그렇다면 Slack에서 어떤 기능들을 지원하는지 한번 살펴보자.
 
 
@@ -22,6 +22,7 @@
 	>/github subscribe Uni-Stark/toolresearch.git
 	>~~~
 	>이런식으로 명령어를 Slack에 입력해주면 아래 사진과 같은 화면이 뜨면서 Slack과 Github의 특정 repository가 연동이 되었다고 뜬다. 물론 특정 repo뿐만 아니라 User만 subscribe해주어도 된다. 그렇게 된다면 해당 User가 모든 repo에 올리는 모든 것들이 Slack으로 올 수 있기 때문에, 주의해야 한다.
+	>
 	><img src="./markdown/img/github_subscribe.png"/>
 	>
 	>
