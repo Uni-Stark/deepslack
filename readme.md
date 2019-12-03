@@ -25,7 +25,7 @@
 	>~~~
 	><img src="./markdown/img/github_subscribe.png"/>
 
-	>이런식으로 명령어를 Slack에 입력해주면 위 사진과 같은 화면이 뜨면서 Slack과 Github의 특정 repository가 연동이 되었다고 뜬다. 물론 특정 repo뿐만 아니라 User만 subscribe해주어도 된다. 그렇게 된다면 해당 User가 모든 repo에 올리는 모든 것들이 Slack으로 올 수 있기 때문에, 주의해야 한다. 그리고 실제로 subscribe하고 있는 repo에 commit이 올라오면 아래 사진처럼, 어떤 branch에 어떤 message를 commit 했는지 확인할 수 있다.</br></br>
+	>이런식으로 명령어를 Slack에 입력해주면 위 사진과 같은 화면이 뜨면서 Slack과 Github의 특정 repository가 연동이 되었다고 뜬다. 물론 특정 repo뿐만 아니라 User만 subscribe 해주어도 된다. 그렇게 된다면 해당 User가 모든 repo에 올리는 모든 것들이 Slack으로 올 수 있기 때문에, 주의해야 한다. 그리고 실제로 subscribe하고 있는 repo에 commit이 올라오면 아래 사진처럼, 어떤 branch에 어떤 message를 commit 했는지 확인할 수 있다.</br></br>
 	><img src="./markdown/img/github_commit.png"/>
 	></br>
 
@@ -41,3 +41,29 @@
 	><img src="./markdown/img/github_issue_reopen.png"/></br></br>
 	>그리고 이러한 issue에 대한 handling은 아래 사진과 같이 Github에 전부 반영되어 있다.</br></br>
 	><img src="./markdown/img/github_issue_status.png"/>
+
+
+<h2>3. Slack(feat.trello) </h2>
+
+> `프로젝트를 진행하는데, 일정관리는 땔래야 땔 수 없는 필수적인 요건`이다. 그리고 팀원들간의 커뮤니케이션도 놓칠 수 없는 부분이다. 그래서 Slack에서는 trello를 연동될 수 있게 해놓았다. 정말 Slack 개발자들 칭찬해~</br>
+> <img src="./markdown/img/slack_clap.png" width="550"/></br>
+> 사실 2번에서 설명한 Github 연동 관련된 것들은 수월하게 진행했다. 이미 내가 Github를 많은 부분에서 잘 사용하기 때문이다. 그래서 issue, repository와 같은 용어들이 친숙하게 느껴져서 쉽고 간단하게 할 수 있었다. 하지만! trello는 아직까지도 난관이다. `나도 아직 trello의 모든 기능을 제대로 모르고 일단 해보자! 라는 식`이지만, 최대한 `내가 할 수 있는 한도내에서` Slack에서 제공하는 trello가 가지는 기능들을 살펴 보았다. Let's go~
+
+
+1. Slack에서 Board 보기
+	>Slack은 많은 부분을 명령어를 통하여 간단하게 trello를 조작할 수 있게 만들어 두었다.
+	>~~~ 
+	>/trello link [Address of trello board or card]
+	>/trello add [teammate]|[card name]
+	>~~~
+	>이런식으로 말이다. 그래서 간단한 명령어로도 trello에 들어가지 않아도 slack에서 board나 card의 상태를 확인할 수 있다. 아래 사진처럼 말이다. </br>
+	><img src="./markdown/img/slack_card_detail.png"/></br>
+
+2. Slack에서 Board나 Card link 하기
+	>이미 위에 1번에서 명령어를 보여줬지만, 다시한번 언급하면 /trello link 라는 명령어를 통해 특정 보드나 카드를 slack에서 연동할 수 있다. 이렇게 연동되면 trello에서 생기는 변동사항이나, team member를 보거나, 원하는 문자를 해당 board에 있나 검색할 수 있게된다. 물론 연동이 되어있는 부분만 가능하다.</br>
+	><img src="./markdown/img/slack_link.png"/></br>
+	>위 사진과 같이 연동을해서 slack을 사용하는 유저가 Default List를 설정할 수 있고, 사용자마다 누군가가 불러온 Slack에 대하여 Join, Subscribe, Star를 누를 수 있다. 그렇게 된다면, 모든 사람이 각자 주소를 불러올 필요없이 편하게 Link 할 수 있게 된다.
+
+3. 그 외 기능
+	> 많은 기능들을 제공하는데, team member가 없어서 내가 못해서, 간략하게 글로 기능들을 소개하겠다.
+	></br><img src="./markdown/img/slack_func_etc.png"/></br>
