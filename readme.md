@@ -1,3 +1,5 @@
+<img src="./markdown/img/slack_logo.png"/>
+
 # Tool Research - 심화편
 ## 부제 - More about "Slack"
 
@@ -16,15 +18,27 @@
 
 
 1. subscribe
-	>Github의 User나 repository의 소식들을 받아보기 위해서는 우선적으로 subscribe를 해줘야 한다. 무작정 Slack에다가 Github만 Install해주면, Slack은 어떤 정보를 보내줄지 모르기 때문이다.
+	>`Github의 User나 repository의 소식들을 받아보기 위해서는 우선적으로 subscribe`를 해줘야 한다. 무작정 Slack에다가 Github만 Install해주면, Slack은 어떤 정보를 보내줄지 모르기 때문이다.
 	>~~~
-	>/github subscribe Uni-Stark/toolresearch.git
+	>/github subscribe User-name/specific-repo.git
+	>/github subscribe Uni-Stark/toolresearch.git (예시)
 	>~~~
-	>이런식으로 명령어를 Slack에 입력해주면 아래 사진과 같은 화면이 뜨면서 Slack과 Github의 특정 repository가 연동이 되었다고 뜬다. 물론 특정 repo뿐만 아니라 User만 subscribe해주어도 된다. 그렇게 된다면 해당 User가 모든 repo에 올리는 모든 것들이 Slack으로 올 수 있기 때문에, 주의해야 한다.
-	>
 	><img src="./markdown/img/github_subscribe.png"/>
+
+	>이런식으로 명령어를 Slack에 입력해주면 위 사진과 같은 화면이 뜨면서 Slack과 Github의 특정 repository가 연동이 되었다고 뜬다. 물론 특정 repo뿐만 아니라 User만 subscribe해주어도 된다. 그렇게 된다면 해당 User가 모든 repo에 올리는 모든 것들이 Slack으로 올 수 있기 때문에, 주의해야 한다. 그리고 실제로 subscribe하고 있는 repo에 commit이 올라오면 아래 사진처럼, 어떤 branch에 어떤 message를 commit 했는지 확인할 수 있다.
 	>
-	>
-	><img src="./markdown/img/github_issue_open.png"/>
-	><img src="./markdown/img/github_issue_close.png"/>
-	><img src="./markdown/img/github_issue_reopen.png"/>
+	><img src="./markdown/img/github_commit.png"/>
+	></br>
+
+2. issue
+ 	><img src="./markdown/img/github_issue_open.png"/></br>
+	>Slack에서는 위 사진과 같이, Issue가 올라오는 것 또한 알람으로 친절하게 알려준다. 몇 번째 이슈가 어떤 내용인지 친절하게 알려준다.
+	>~~~
+	>/github close https://github.com/Uni-Stark/toolresearch/issues/1
+	>/github reopen https://github.com/Uni-Stark/toolresearch/issues/1
+	>~~~
+	>또한 위와 같은 명령어를 쳐서 간단하게 issue를 close, repoen 할 수 있으며, 아래 사진과 같이 해당 이슈에 대한 close, reopen의 status를 전달받을 수 있다.
+	><img src="./markdown/img/github_issue_close.png"/></br>
+	><img src="./markdown/img/github_issue_reopen.png"/></br>
+	>그리고 이러한 issue에 대한 handling은 아래 사진과 같이 Github에 전부 반영되어 있다.</br>
+	><img src="./markdown/img/github_issue_status.png"/>
