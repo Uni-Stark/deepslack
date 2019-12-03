@@ -16,6 +16,15 @@
 > 그렇다면 Slack에서 어떤 기능들을 지원하는지 한번 살펴보자.
 
 
-1. Slack에서 연동되는 Github 기능 - 기능리스트
-	><img src="./markdown/img/github_func_list1.png"/>
-	><img src="./markdown/img/github_func_list2.png"/>
+1. subscribe
+	>Github의 User나 repository의 소식들을 받아보기 위해서는 우선적으로 subscribe를 해줘야 한다. 무작정 Slack에다가 Github만 Install해주면, Slack은 어떤 정보를 보내줄지 모르기 때문이다.
+	>~~~
+	>/github subscribe Uni-Stark/toolresearch.git
+	>~~~
+	>이런식으로 명령어를 Slack에 입력해주면 아래 사진과 같은 화면이 뜨면서 Slack과 Github의 특정 repository가 연동이 되었다고 뜬다. 물론 특정 repo뿐만 아니라 User만 subscribe해주어도 된다. 그렇게 된다면 해당 User가 모든 repo에 올리는 모든 것들이 Slack으로 올 수 있기 때문에, 주의해야 한다.
+	><img src="./markdown/img/github_subscribe.png"/>
+	>
+	>
+	><img src="./markdown/img/github_issue_open.png"/>
+	><img src="./markdown/img/github_issue_close.png"/>
+	><img src="./markdown/img/github_issue_reopen.png"/>
