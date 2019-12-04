@@ -97,6 +97,8 @@
 
 
 <h2> 4. Fine </h2>
-><a href="https://github.com/Uni-Stark/toolresearch" target="_blank">이전에 조사</a>한 자료에 이어서 Slack에 대해서 좀 더 자세하게 알아보았다. Slack에 있는 App은 무수히 많아서, 천천히 알아볼 예정이다.
-></br> <img src="./markdown/img/slack_app.png"/></br>
->지금 모든 기능들을 필요로 하지도 안고 알아본다고 해봤자 시간낭비이기 때문에 트렐로 자료조사에 조금 더 힘을 쓸것이다. 다만 Gmail, Outlook App은 천천히 나중에 급한게 아니니까 알아볼 예정이다. 그럼 다음 포스팅때 만나겠다.
+> <a href="https://github.com/Uni-Stark/toolresearch" target="_blank">이전에 조사</a>한 자료에 이어서 Slack에 대해서 좀 더 자세하게 알아보았다. Slack에 있는 App은 무수히 많아서, 천천히 알아볼 예정이다.
+
+> </br> <img src="./markdown/img/slack_app.png"/></br>
+
+> 지금 모든 기능들을 필요로 하지도 안고 알아본다고 해봤자 시간낭비이기 때문에 트렐로 자료조사에 조금 더 힘을 쓸것이다. 다만 Gmail, Outlook App은 천천히 나중에 급한게 아니니까 알아볼 예정이다. 그럼 다음 포스팅때 만나겠다.
