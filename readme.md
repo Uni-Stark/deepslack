@@ -88,5 +88,15 @@
 	> </br><img src="./markdown/img/slack_how_to_thread.png"/></br>
 	> 원하는 채팅에서 옵션 중 2번째인 Start a Thread를 해주면 된다. 이 기능은 하루에 수백, 수천개가 오고가는 메시지들 중에서 내가 원하는 것을 굳이 찾을 필요없이, Thread 탭에서 간단하게 찾을 수 있기 때문에 아주 효율적인 기능이다.
 3. 특정 채팅에 대한 기능
-	> <img src="./markdown/img/slack_message_option.png"/></br>
+	> </br><img src="./markdown/img/slack_message_option.png"/></br>
 	> 2에서 설명한 thread 외에도 특정 채팅에 대한 위 사진과 같은 다양한 기능들을 제공한다. 해당 채팅에 대한 링크를 걸어두거나, 안읽음 표시, 일정 시간 뒤 알람, 채팅에 pin 그리고 본인이 쓴 채팅이라면 수정 & 삭제가 가능하게 했다.
+
+4. Slackbot
+	> </br><img src="./markdown/img/slack_bot.png"/></br>
+	> Slack에서는 Chatbot을 기본적으로 제공한다. 그래서 기능 중 모르는게있다면 Slackbot에게 직접 물어볼 수 있다. 여기저기 번거롭게 찾는 것 보다 원하는 정보를 훨씬 손쉽게 찾을 수 있다.
+
+
+<h2> 4. Fine </h2>
+> <a href="https://github.com/Uni-Stark/toolresearch" target="_blank">이전에 조사</a>한 자료에 이어서 Slack에 대해서 좀 더 자세하게 알아보았다. Slack에 있는 App은 무수히 많아서, 천천히 알아볼 예정이다.
+> </br> <img src="./markdown/img/slack_app.png"/></br>
+> 지금 모든 기능들을 필요로 하지도 안고 알아본다고 해봤자 시간낭비이기 때문에 트렐로 자료조사에 조금 더 힘을 쓸것이다. 다만 Gmail, Outlook App은 천천히 나중에 급한게 아니니까 알아볼 예정이다. 그럼 다음 포스팅때 만나겠다.
