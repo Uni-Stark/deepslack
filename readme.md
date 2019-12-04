@@ -97,6 +97,7 @@
 
 
 <h2> 4. Fine </h2>
+
 > <a href="https://github.com/Uni-Stark/toolresearch" target="_blank">이전에 조사</a>한 자료에 이어서 Slack에 대해서 좀 더 자세하게 알아보았다. Slack에 있는 App은 무수히 많아서, 천천히 알아볼 예정이다.
 
 > </br> <img src="./markdown/img/slack_app.png"/></br>
