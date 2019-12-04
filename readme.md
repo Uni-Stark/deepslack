@@ -27,7 +27,7 @@
 
 2. issue
  	> <img src="./markdown/img/github_issue_open.png"/></br>
-	> Slack에서는 위 사진과 같이, 올라오는 issue를 알람으로 친절하게 알려준다. 몇 번째 이슈가 어떤 내용인지 친절하게 알려준다.
+	> Slack에서는 위 사진과 같이, 올라오는 issue를 알람으로 친절하게 알려준다. 몇 번째 이슈가 어떤 내용인지를
 	> ~~~
 	> /github close https://github.com/Uni-Stark/toolresearch/issues/1
 	> /github reopen https://github.com/Uni-Stark/toolresearch/issues/1
